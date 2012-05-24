@@ -1,0 +1,24 @@
+/* 
+    Document   : video-archive
+    Created on : Feb 17, 2012, 1:44:48 PM
+    Author     : russell
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+.videoarchive #videoarchive_video_cat_fill li {
+	width: 47%; 
+	float:left;
+}
+
+.videoarchive #videoarchive_video_cat_fill li:nth-child(even) {
+	clear:both;
+	margin-right:5%;
+}
+
+.videoarchive #videoarchive_video_cat_fill li:first-child {
+	width:100%;
+	margin-right:0;
+}
+
+
